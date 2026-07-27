@@ -215,11 +215,22 @@ curl -X POST http://localhost:8080/api/v1/diet/chat \
 项目内置静态页面，启动后访问 `http://localhost:8080` 即可使用：
 
 - 首页：查看个人餐食、公共餐食统计。
+
+<img width="1906" height="905" alt="image" src="https://github.com/user-attachments/assets/03bd671c-0195-4ed1-878f-3f002787d5b9" />
 - 聊天推荐：选择个人库或公共库，与助手对话获取推荐。
+<img width="1880" height="901" alt="image" src="https://github.com/user-attachments/assets/e82a5cb4-11e7-4297-98f8-0fd01756d00a" />
+
 - 个人餐食：维护自己的常吃餐食与标签。
+<img width="1874" height="904" alt="image" src="https://github.com/user-attachments/assets/67f74794-f984-4b76-9894-9ff4be48760f" />
+
 - 公共餐食：查看系统预置餐食。
+<img width="1864" height="904" alt="image" src="https://github.com/user-attachments/assets/5ecff821-bb61-493d-bfb8-38b226a45732" />
+
 - Trace：查看每轮请求的 Agent 执行链路。
+<img width="1898" height="880" alt="image" src="https://github.com/user-attachments/assets/d258c2c0-826d-446a-8710-c84c0cfb55ed" />
+
 - 评估：按时间范围生成推荐链路评测报告。
+<img width="1834" height="775" alt="image" src="https://github.com/user-attachments/assets/08a25419-3aac-4399-b7f5-5dd865c2402b" />
 
 ## 开发说明
 
