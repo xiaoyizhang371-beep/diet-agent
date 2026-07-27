@@ -237,5 +237,5 @@ curl -X POST http://localhost:8080/api/v1/diet/chat \
 
 ## License
 
-当前仓库尚未声明开源许可证。如需开源发布，请根据项目用途选择合适的 License，例如 MIT、Apache-2.0 或 GPL。
+MIT License
 
