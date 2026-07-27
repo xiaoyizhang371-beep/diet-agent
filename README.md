@@ -228,12 +228,6 @@ curl -X POST http://localhost:8080/api/v1/diet/chat \
 - 模型 Bean 在 `DietAgentScopeConfig` 中配置，主模型默认用于最终推荐回复，轻量模型默认用于意图识别和澄清。
 - Mapper XML 位于 `src/main/resources/mapper`，实体模型位于 `com.diet.model`。
 
-## 提交 GitHub 前检查
-
-- 移除真实 API Key、数据库密码等敏感信息。
-- 确认 `target/`、IDE 配置、本地临时文件没有被提交。
-- 确认数据库脚本中的示例数据可以公开。
-- 如果需要公开部署，建议新增独立的 `application-example.yml`，把本地私密配置放入未提交的 profile 文件或环境变量。
 
 ## License
 
